@@ -13,5 +13,5 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 			return;
 		}
 		g_form.setValue("u_age", age);
-	});   
+	});
 }
