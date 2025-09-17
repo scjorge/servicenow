@@ -11,3 +11,7 @@ Alterar banner.
 Alterar bar title
 
      system properties -> System -> Browser tab title
+
+Alterar Timezone
+
+     system properties -> System -> Timezone
