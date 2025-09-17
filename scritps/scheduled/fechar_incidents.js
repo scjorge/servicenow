@@ -9,7 +9,6 @@
 | **8**           | Canceled               |
 */
 
-
 (function() {
     var gr = new GlideRecord("incident");
     gr.addQuery("state", "Resolved");  // somente incidentes resolvidos
@@ -24,5 +23,5 @@
     }
 
     // Registrar log no system log
-    gs.log("Scheduled Job: " + count + " incidentes fechados automaticamente.", "CloseResolvedIncidents");
+    gs.info("Scheduled Job: " + count + " incidentes fechados automaticamente.", "CloseResolvedIncidents");
 })();
