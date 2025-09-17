@@ -39,4 +39,4 @@ try {
     gs.error(error);
 }
 
-useActionState.setRedirectURL(current);
+action.setRedirectURL(current);

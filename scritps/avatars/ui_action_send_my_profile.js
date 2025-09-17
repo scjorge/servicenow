@@ -34,7 +34,7 @@ condition -> (!current.u_avartar.nil() && !current.u_user.nil())
 
     saveImage(avatarGR, userGR);
 
-    useActionState.setRedirectURL(current);
+    action.setRedirectURL(current);
 })();
 
 
@@ -50,4 +50,4 @@ if (liveprofileGR.next()){
     liveprofileGR.update();
     GlideCacheManager.flush("user_avatar_cache");
 }
-useActionState.setRedirectURL(current);
+action.setRedirectURL(current);
